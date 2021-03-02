@@ -13,6 +13,7 @@ Fisierul obiect **ast_utils.o** contine implementarea unei functii care
 calculeaza valoarea obtinuta din arborele arborele sintactic si pe care o
 afiseaza la *stdout*.
 
+Mai multe detalii despre enunt se pot gasi [aici](https://ocw.cs.pub.ro/courses/iocla/teme/tema-3).
 
 ## Modalitatea de rulare
 
