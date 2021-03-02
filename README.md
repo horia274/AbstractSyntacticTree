@@ -4,14 +4,29 @@
 
 Primind un string ca input ce reprezinta o expresie in **forma prefixata**,
 algoritmul implementat in fisierul **ast.asm** creeaza un arbore sintactic
-abstract. De exemplu, expresia *4 / 64 - 2 * (3 + 1)* formeaza urmatorul
-arbore:
+abstract. De exemplu, expresia *4 / 64 - 2 * (3 + 1)* (ca input se va da in
+forma prefixata) formeaza urmatorul arbore:
 
 ![exemplu](https://ocw.cs.pub.ro/courses/_media/iocla/teme/ast.png?cache=)
+
+Fisierul obiect **ast_utils.o** contine implementarea unei functii care
+calculeaza valoarea obtinuta din arborele arborele sintactic si pe care o
+afiseaza la *stdout*.
 
 
 ## Modalitatea de rulare
 
+Se compileaza programul ruland comanda
+
+* make
+
+Se ruleaza pe unul din testele date folosind comanda
+
+* ./ast < tests/number-ast/number-ast.in, unde *number* este numarul testului
+rulat.
+
+Se poate compara rezultatul obtinut in terminal cu cel din fisierul *.ref*
+corespunzator testului curent.
 
 
 ## Detalii despre implementarea celor doua functii:
